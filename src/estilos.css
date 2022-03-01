@@ -11,3 +11,16 @@ html , body , #root {
 body {
     background-image: linear-gradient(to bottom right, #a0b5eb, #c9f0e4);
 }
+#container{
+    font-size: x-large;
+    text-align: center;
+    padding: 4rem;
+}
+#header{
+
+    align-items: center;
+    align-content: center;
+}
+#carrito{
+    line-height: inherit;
+}

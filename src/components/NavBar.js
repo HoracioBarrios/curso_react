@@ -1,13 +1,15 @@
 import React from 'react'
+import CarWidget from './CarWidget.js'
 
 const Header = () => {
     return (
-        <header class= "row p-3" >
-            <h1 class= "col-sm-4 pl-5">Wildvest</h1>
-            <nav class="nav justify-content-end col-sm-8">
-              <a class="nav-link active" href="#">Remeras</a>
-              <a class="nav-link active" href="#">Personalizados</a>
-              <a class="nav-link active" href="#">Mayoristas</a>
+        <header className= 'row p-3' id = 'header' >
+            <h1 className= 'col-sm-4 pl-5'>Wildvest</h1>
+            <nav className="nav justify-content-end col-sm-7">
+              <a className="nav-link active" href="#">Remeras</a>
+              <a className="nav-link active" href="#">Personalizados</a>
+              <a className="nav-link active" href="#">Mayoristas</a>
+            <CarWidget/>
             </nav>
         </header>
     )
