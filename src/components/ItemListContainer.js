@@ -1,13 +1,15 @@
-import {useState} from "react";
-import ItemCount from ".ItemCount.js";
 
-const ItemListContainer = (props) =>{
+import ItemCount from "./ItemCount";
+
+const ItemListContainer = () =>{
     
-    const [estado, setEstado]=useState(0)
-    return (
+        return (
+            <>
             <div className = 'card m-4' id = 'container'>
             {"Aqui ira el catálogo"}
-        </div>
+            </div>
+            <ItemCount/>
+            </>
     )
 }
 
