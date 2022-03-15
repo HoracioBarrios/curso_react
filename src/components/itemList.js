@@ -1,9 +1,10 @@
-const ItemList = ({producto}) => {
+import Item from "./item";
+
+const ItemList = ({productosIniciales}) => {
     
-    {productos.map((producto)=>{
-        return <li key={producto.id}>{producto.nombre}</li>
+    {productosIniciales.map((productos)=>{
+        return <Item producto/>
     })}
-    return (productos);
 }
  
 export default ItemList;
